@@ -2,6 +2,6 @@
  * @param   {{ name: string, age: number }[]} users
  * @returns {string[]}  объект
  */
-function namify(users) {
-  // ваш код...
-}
+  function namify (users) {
+    return users.map ( firstName => firstName.name );
+  }
